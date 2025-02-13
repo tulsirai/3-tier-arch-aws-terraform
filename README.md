@@ -2,9 +2,8 @@
 
 This Terraform project provisions a **three-tier architecture** in AWS, including **VPC, ECS, and supporting infrastructure**.
 
-
-1️⃣ Project Setup
-  ## 🚀 **Prerequisites**
+---
+## 🚀 **Prerequisites**
 Ensure you have the following installed:
 - **Terraform**: [Download here](https://developer.hashicorp.com/terraform/downloads)
 - **AWS CLI**: [Install Guide](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
@@ -13,7 +12,8 @@ Ensure you have the following installed:
 ---
 
 ## 📌 **Setup & Usage**
-### **1️⃣ Clone the Repository**
+
+1️⃣ Clone the Repository**
 ```sh
 git clone https://github.com/your-repo/3-tier-arch-aws.git
 cd 3-tier-arch-aws
