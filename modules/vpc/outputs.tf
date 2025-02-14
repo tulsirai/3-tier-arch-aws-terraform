@@ -26,19 +26,19 @@ output "public_subnet_az2" {
   value = aws_subnet.public_subnet_az2.id
 }
 
-output "public_app_subnet_az1" {
+output "private_app_subnet_az1" {
   value = aws_subnet.private_app_subnet_az1.id
 }
 
-output "public_app_subnet_az2" {
+output "private_app_subnet_az2" {
   value = aws_subnet.private_app_subnet_az2.id
 }
 
-output "public_data_subnet_az1" {
+output "private_data_subnet_az1" {
   value = aws_subnet.private_data_subnet_az1.id
 }
 
-output "public_data_subnet_az2" {
+output "private_data_subnet_az2" {
   value = aws_subnet.private_data_subnet_az2.id
 }
 
