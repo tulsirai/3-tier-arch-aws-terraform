@@ -11,3 +11,4 @@ variable "project_type" {}
 variable "environment" {}
 variable "domain_name" {}
 variable "alternative_name" {}
+variable "container_image" {}
