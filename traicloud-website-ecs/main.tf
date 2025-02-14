@@ -37,4 +37,11 @@ module "nat_gateway" {
 module "security_group" {
   source                        = "../modules/security-groups"
   vpc_id                        = module.vpc.vpc_id
+  
+}
+
+# Create ECS Task Definition
+module "ecs_task_execution_role" {
+  source                        = "../modules/ecs-task-execution-role"
+  project_name                  = module.vpc.project_name
 }
