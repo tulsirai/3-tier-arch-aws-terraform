@@ -2,9 +2,9 @@
 
 terraform {
   backend "s3" {
-    bucket         = "traicloud-terraform-state"
+    bucket         = "trai-terraform-state"
     key            = "traicloud-website-ecs.state"
     region         = "us-west-2"    
-    profile        = "awspsa"
+    profile        = "terraform-user"
   }
 }
